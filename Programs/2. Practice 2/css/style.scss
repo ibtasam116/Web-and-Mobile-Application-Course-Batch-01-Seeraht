@@ -1,0 +1,32 @@
+$maincolor: #1d3557;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    header{
+        nav.navbar{
+            background: $maincolor;
+            
+        }
+    }
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    main {
+        flex: 1 0 auto;
+    }
+
+
+    footer{
+        background: $maincolor;
+    }
+}
