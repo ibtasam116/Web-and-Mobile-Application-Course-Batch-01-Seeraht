@@ -1,0 +1,54 @@
+Dear Students, you have to complete all the assignments. You have more than 2 weeks. Start from today as soon as possible.
+
+Assignment 1 https://forms.gle/e7aRPWTDEMhWrK9f8	Done
+
+Assignment 2 https://forms.gle/N7x1MQdwWEt4VVta7	Done
+
+Assignment 3 https://forms.gle/tccm2EFY7UqohBW5A	Done
+
+Assignment 4 https://forms.gle/9qkry9YDmRFfemx67	Done
+
+Assignment 5 https://forms.gle/EJekZ9BA8m2T2GzS8	Done
+
+Assignment 6 https://forms.gle/4xa8esdfcWfpi6LTA	Done
+------------------------------------------------------------------------
+
+Assignment 7 (A Simple Calculator) https://forms.gle/Tmdht5rpQaKbYbVv5
+
+Please upload all of these assignments as soon as possible.
+
+Good luck to all of you!!
+
+Practice makes a man perfect.
+
+
+
+----------
+
+Functions
+
+
+----------------
+function showTable() {
+
+    if (!users.length) {
+        showNotification("There is not a single user available.", "error");
+        return;
+    }
+
+    let tableStartingCode = '<div class="table-responsive"><table class="table">'
+    let tableHead = '<thead><tr><th scope="col">#</th><th scope="col">First Name</th><th scope="col">Last Name</th><th scope="col">Email</th><th scope="col">Date of Birth</th><th scope="col">Age</th></tr></thead>'
+
+    let tableEndingCode = '</table></div>'
+
+
+    let tableBody = ''
+
+    for (let i = 0; i < users.length; i++) {
+        tableBody += '<tr><th scope="row">' + (i + 1) + '</th><td>' + users[i].firstName + '</td><td>' + users[0].lastName + '</td><td>' + users[i].email + '</td><td>' + users[i].dob + '</td><td>' + users[i].calculateAge() + '</td></tr>'
+    }
+
+    let table = tableStartingCode + tableHead + "<tbody>" + tableBody + "</tbody>" + tableEndingCode
+
+    showOutput(table)
+}
