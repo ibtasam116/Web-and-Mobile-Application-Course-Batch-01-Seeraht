@@ -1,0 +1,42 @@
+$headercolor: #023047;
+$maincolor: #f8f9fa;
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    header {
+        nav.navbar {
+            background-color: $headercolor;
+        }
+    }
+}
+
+main {
+    flex: 1 0 auto;
+
+    .section{
+        min-height: 60vh;
+    }
+
+    .card {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+
+    #output{
+        min-height: 12vh;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;        
+    }
+
+    #updateTaskButton{
+        display: none;
+    }
+}
+
+
+footer {
+    background-color: $headercolor;
+}

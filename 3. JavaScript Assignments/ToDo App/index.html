@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO</title>
+
+    <!-- BootStrap CSS File -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Toastify CSS Link -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid">
+            <div class="row bg-danger">
+                <div class="col">
+                    <p class="mb-0 text-center py-1 text-white" id="time1">
+                        <!-- Monday, May 30 2022, 05:05:11 PM -->
+                    </p>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">My Todo App</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <span class="text-white">Hi !</span>
+                        <span id="nameOfUser" class="text-white"></span>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="section bg-light">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col">
+                        <h3 class="text-dark text-center">Add Your Task</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                        <div class="card p-3 p-md-4 p-lg-5">
+                            <div class="row mb-3">
+                                <div class="col-12 col-md-6 mb-3 mb-md-0">
+                                    <input type="text" class="form-control" id="title" placeholder="Titel">
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <input type="text" class="form-control" id="location" placeholder="Location">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <textarea type="text" class="form-control" id="description"
+                                        placeholder="Description"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 col-md-6 offset-3">
+                                    <button class="btn btn-danger w-100 text-white" id="addTaskButton" type="button"
+                                        onclick="handleSubmit()">Add Task</button>
+                                    <button class="btn btn-secondary w-100 text-white" id="updateTaskButton" type="button"
+                                        onclick="handleEdit()">Update Task</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="text-center my-2">Your Tasks</h3>
+                    <div class="border rounded-3 text-center p-4" id="output"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-1">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="mb-0 text-center text-white">&copy; All Rights Reserved <span id="year"></span>. Developed
+                        By <a href="mailto:ibtasam116@gmail.co"
+                            class="fw-bold text-white text-decoration-none">ibtasam116@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BootStrap JS File -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
+
+    <!-- Toastify JS Link  -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

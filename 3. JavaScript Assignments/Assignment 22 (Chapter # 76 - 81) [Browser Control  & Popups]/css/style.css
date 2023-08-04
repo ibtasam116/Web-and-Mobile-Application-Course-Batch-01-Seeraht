@@ -1,0 +1,32 @@
+
+
+/* Navbar */
+.backcolor {
+    background-color: #1C3458;
+}
+
+
+/* Buttons */
+.buttons button  {
+    margin-bottom: 5px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
+/* Footer */
+footer {
+    height: 40px;
+}
+
+footer p {
+    line-height: 40px;
+}

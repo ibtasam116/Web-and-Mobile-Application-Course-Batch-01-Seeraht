@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced JavaScript</title>
+
+    <!-- BootStrap -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Toastify CSS File -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="position-sticky top-0">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-secondary" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="py-3">
+        <div id="hero-section" class="pb-5">
+            <div class="container">
+                <h1 class="text-center">Our Main Element</h1>
+                <div class="row  text-center border border-dark rounded-4 py-4">
+                    <div class="col-12">
+                        <button class="btn btn-success" onclick="mapMethod()">Map Method</button>
+                        <button class="btn btn-info my-2" onclick="filterMethod()">Filter Method</button>
+                        <button class="btn btn-secondary" onclick="findMethod()">Find Method</button>
+                        <hr>
+                    </div>
+                    <div class="col-4 offset-4">
+                        <input class="form-control" placeholder="Enter Your Email" type="email" name="email" id="email">
+                        <button class="btn btn-outline-info my-2" onclick="findEmail()">Find Email</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h1 class="text-center">Output / Result</h1>
+            <div id="OutputResult" class="container text-center border border-dark rounded-4 p-3"
+                style="min-height: 100px;">
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="mb-0 text-center text-white py-2">&copy; <span id="year"></span>All Right Reserved. <a
+                            href="mailto:ibtasam116@gmail.com" class="fw-bold text-white text-decoration-none">Muhammad
+                            IbTaSaM</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- BootStrap -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <!-- Toastify CSS File -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <!-- Custom JS File -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
