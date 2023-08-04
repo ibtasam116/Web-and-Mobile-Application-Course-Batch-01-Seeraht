@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Kitchen - Menu</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <!-- Nav Bar -->
+    <header id="navbar" class="position-sticky top-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark Pos">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Smart Kitchen</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Carousel only with one slide without controls and indicators -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/cover.jpg" class="d-block w-100" alt="Slider 1">
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu -->
+        <div class="py-5">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-12 col-md-10 offset-md-1 text-center">
+                        <h1>Our Happy Menu</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ipsam dignissimos accusamus
+                            ipsum, amet cupiditate</p>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col">
+                        <img src="./images/menu/1.jpeg" alt="Menu 1" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row text-center mt-3">
+                    <div class="col">
+                        <img src="./images/menu/2.jpeg" alt="Menu 2" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Order Now Button -->
+        <div>
+            <div class="container">
+                <div class="row text-center mb-5">
+                    <div class="col">
+                        <button type="button" class="btn btn-success order-button">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deal -->
+        <div class="py-5" style="background-color: #F8F9FB;">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12 col-md-10 offset-md-1">
+                        <h1>Our Value Deals</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptatum. Ducimus atque,
+                            maxime hic, mollitia quibusdam asperiores aperiam pariatur esse quidem sint officia
+                            inventore maiores veritatis nisi fuga corrupti deleniti!</p>
+                    </div>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-sm-12 col-md-4">
+                        <div class="card w-100 mb-4 mb-md-0">
+                            <img src="./images/deals/6.jpg" class="card-img-top" alt="Deal 6">
+                            <div class="card-body">
+                                <h5 class="card-title">Burger Deal <span class="badge bg-success">New</span></h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <a href="contact.html" class="btn btn-success">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <div class="card w-100 mb-4 mb-md-0">
+                            <img src="./images/deals/7.jpg" class="card-img-top" alt="Deal 7">
+                            <div class="card-body">
+                                <h5 class="card-title">Delicious Large Pizza Deal <span
+                                        class="badge bg-success">New</span></h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <a href="contact.html" class="btn btn-success">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <div class="card w-100 mb-4 mb-md-0">
+                            <img src="./images/deals/8.jpeg" class="card-img-top" alt="Deal 8">
+                            <div class="card-body">
+                                <h5 class="card-title">Weekend Special Deal <span class="badge bg-success">New</span>
+                                </h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <a href="contact.html" class="btn btn-success">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <p class="mb-0 fw-bold text-dark text-center text-md-start">&copy; 2022. All Rights Reserved.</p>
+                </div>
+                <div class="d-none d-md-block col-md-8 text-end">
+                    <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer" class="fw-bold text-dark">
+                        Terms &amp; Conditions</a> |
+                    <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer" class="fw-bold text-dark">
+                        Privacy Policy</a> |
+                    <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer" class="fw-bold text-dark">
+                        Order Policy</a>
+                </div>
+            </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

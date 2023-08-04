@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body header #nav-img {
+  margin-left: 100px;
+  width: 5%;
+}
+
+body header .meanus ul {
+  margin-left: 400px;
+}
+
+body header .meanus ul li a {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body .main-section .home_hero_background {
+  background-image: url(/images/home_hero_section.jpg);
+  background-size: 100% 100vh;
+  height: 84vh;
+}
+
+body .main-section .home_hero_background .home_hero_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: aliceblue;
+}
+
+body .main-section .home_hero_background .home_hero_text .logo-Phungus {
+  margin-left: 20%;
+}
+
+body #loadMore {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+body #shadywoods {
+  background-image: url(/images/shadywoods-Wald-und-See.png);
+  min-height: 100vh;
+}
+
+body footer .foot-menu a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding: 0px 5px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+/*# sourceMappingURL=style.css.map */

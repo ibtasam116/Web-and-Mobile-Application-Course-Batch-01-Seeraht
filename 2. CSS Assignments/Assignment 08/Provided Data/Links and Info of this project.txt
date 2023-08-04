@@ -1,0 +1,21 @@
+Dear Web and Mobile Application (Batch - 1 | Section - A) Students,
+
+Here is your Bootstrap 5 Assignment # 2.
+
+You will have to create 2 pages website.
+1 - index.html (Home)
+2 - shadywoods.html (ShadyWoods)
+
+Please design the same structure and deploy it on the surge.
+
+Note: The last date for submitting your assignment is 20-March-2022.
+
+You can download the images used in this website from this link https://drive.google.com/drive/folders/1-rL1FNhBERAqVjqc_iVB6PHNlqahcbVR?usp=sharing
+
+Upload your assignment here https://forms.gle/RDuVSdWssfvnV36u9
+
+Bootstrap Website https://getbootstrap.com
+
+Good luck to all of you.
+Happy Coding 🙂
+Practice makes a man perfect!!

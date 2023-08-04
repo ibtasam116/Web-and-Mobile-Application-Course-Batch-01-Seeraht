@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header#navbar {
+    z-index: 999;
+}
+
+.top-0 {
+    top: 0 !important;
+}
+
+.position-sticky {
+    position: sticky !important;
+}
+
+#faqs {
+    background: #ad5389;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer {
+    height: 40px;
+}
+
+footer p, footer a {
+    line-height: 40px;
+}
+
+.order-button {
+    padding: 8px 100px 8px 100px;
+    font-size: 20px;
+}
+
+.box{
+    min-height: 250px;
+    transition: 0.5s;
+}
+
+.box:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 0;
+}
+
+.card{
+    transition: 0.5s;
+}
+
+.card:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

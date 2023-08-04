@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Kitchen - Contact</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <!-- Alert -->
+    <header style="background-color: #CFF4FC;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="alert alert-info alert-dismissible fade show mb-0 px-0" role="alert">
+                        <strong>HURRAY!</strong> You should check our new <a href="menu.html" class="alert-link">happy
+                            menu</a>.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Nav Bar -->
+    <header id="navbar" class="position-sticky top-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark Pos">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Smart Kitchen</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Carousel only with one slide without controls and indicators -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/cover.jpg" class="d-block w-100" alt="Slider 1">
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="py-5" style="background-color: #F8F9FB;">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-sm-12 col-md-10 offset-md-1 text-center">
+                        <h1>Contact Us</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4 mb-3 mb-md-0">
+                        <div class="box border p-4 d-flex justify-content-center  align-items-center flex-column">
+                            <i class="fa-solid fa-phone fa-3x mb-3"></i>
+                            <h4 class="fw-bold">Call</h4>
+                            <p><span class="fw-bold me-2">Phone</span><a href="tel:+923178730041" class="text-dark">0317
+                                    873 00 41</a></p>
+                            <p><span class="fw-bold me-2">Landline</span><a href="tel:0418730041" class="text-dark">041
+                                    873 00 41</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-3 mb-md-0">
+                        <div class="box border p-4 d-flex justify-content-center  align-items-center flex-column">
+                            <i class="fa-brands fa-whatsapp fa-3x mb-3" style="color: #25d366;"></i>
+                            <h4 class="fw-bold">Whatsapp</h4>
+                            <a href="https://wa.me/923178730041" target="-blank" class="text-dark fw-bold">0317
+                                873 00 41</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-3 mb-md-0">
+                        <div class="box border p-4 d-flex justify-content-center  align-items-center flex-column">
+                            <i class="fa-solid fa-location-dot fa-3x mb-3"></i>
+                            <h4 class="fw-bold">Address</h4>
+                            <p class="text-center"><a href="https://goo.gl/maps/bqjjtyPXsRFQFoxa6" target="-blank"
+                                    class="text-dark">near
+                                    Baba Tikka, D Ground Block B People's Colony No 1,</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Map -->
+        <div class="mt- overflow-hidden" style="height: 450px;">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.2498075723347!2d73.10566421514781!3d31.40724278140713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392269c8a01cbd7b%3A0xe0487d779800eeed!2sSMART%20Kitchen%20&#39;41&#39;!5e0!3m2!1sen!2s!4v1648405985995!5m2!1sen!2s"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </main>
+    <!-- Footer -->
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <p class="mb-0 fw-bold text-white text-center text-md-start">&copy; 2022. All Rights Reserved.</p>
+                </div>
+                <div class="d-none d-md-block col-md-8 text-end">
+                    <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer" class="fw-bold text-white">
+                        Terms &amp; Conditions</a> |
+                    <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer" class="fw-bold text-white">
+                        Privacy Policy</a> |
+                    <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer" class="fw-bold text-white">
+                        Order Policy</a>
+                </div>
+            </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+    <!-- Fontawesome Icons -->
+    <script src="https://kit.fontawesome.com/8b4263b246.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

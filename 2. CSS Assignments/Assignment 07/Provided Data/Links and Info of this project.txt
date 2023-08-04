@@ -1,0 +1,33 @@
+https://smart-kitchen.surge.sh/
+
+Please visit this website. and make it same or more creative. This is your assignment.
+
+جزاکم اللہ خیرا
+
+Total 3 pages.
+Home
+Menu
+Contact
+
+------------------------------
+
+Dear Web and Mobile Application (Batch - 1 | Section - A) Students,
+Here is your Bootstrap 5 Assignment.
+
+You will have to create 3 pages website.
+1 - index.html (Home)
+2 - menu.html (Menu)
+3 - contact.html (Contact)
+
+Please design the same structure and deploy it on the surge.
+Note: The last date for submitting your assignment is 6-March-2022.
+
+You can download the images used in this website from this link https://drive.google.com/drive/folders/1NltbR6CTcg8HxCl652uiU7DXQqI4ayyc?usp=sharing
+
+Upload your assignment here https://forms.gle/5dMZGTbsvrPgi7Ug9
+
+Bootstrap Website https://getbootstrap.com
+
+Good luck to all of you.
+Happy Coding 🙂
+Practice makes a man perfect!!
